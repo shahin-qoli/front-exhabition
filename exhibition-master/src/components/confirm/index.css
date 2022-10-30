@@ -1,0 +1,36 @@
+.superapp-popup-container{
+  position:fixed;
+  width:calc(100%);
+  left:0;
+  top:0;
+  height:calc(100%);
+  background:rgba(0,0,0,0.4);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  z-index:10;
+}
+.superapp-poppup{
+  background:#fff;
+  width:90%;
+  height:90%;
+  border-radius:12px;
+  box-shadow:2px 2px 12px 3px rgb(0 0 0 / 30%)
+}
+.superapp-popup-header{
+  background:#DDD;
+  color:#323130;
+}
+.superapp-popup-title{
+  padding:0 24px;
+  font-size:20px;
+}
+.superapp-popup-footer-button{
+  height:36px;
+  background:dodgerblue;
+  border:none;
+  padding:0 24px;
+  color:#fff;
+  font-family:inherit;
+  border-radius:4px;
+}
